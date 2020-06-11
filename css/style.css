@@ -1,0 +1,142 @@
+@font-face {
+    font-family: BurbankBigRegular;
+    src: url("../fonts/BurbankBigRegular-Black.otf") format("opentype");
+}
+h1{
+    font-family: 'BurbankBigRegular',sans-serif;
+}
+h3{
+    font-size: 1.375em;
+    color: #00c6ff;
+    font-family: 'BurbankBigRegular',sans-serif;
+}
+h3 span{
+    font-size: .99em;
+}
+
+ul{
+    padding-inline-start: 0px !important;
+
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.fa{
+    color: #000 !important;
+
+}
+footer{
+    background-color: #2A2A2A;
+}
+footer p{
+    color: #fff;
+}
+
+.first-section {
+    background-image: url('../img/home-bg.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+    height: auto;
+    width: 100%;
+}
+
+.fortnite-img {
+    background-image: url('../img/fortnite-image.png');
+    background-size: 100% 100%;
+    height: 450PX;
+}
+.fornite-img-pad-fix{
+    padding: 5% 12% !important;
+}
+
+/* .fornite-img-pad-fix {
+    padding: 50px 180px;
+} */
+
+.fornite-txt-pad-fix {
+    padding-top: 80px;
+    font-family: 'Lemonada', cursive;
+
+}
+
+.fornite-txt-pad-fix h1 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.fornite-txt-pad-fix p {
+    font-weight: bolder;
+}
+
+
+/* section 2 design start */
+.section-2-1 p{
+    font-weight: bold;
+    font-family: OpenSans,sans-serif;
+}
+.section-2-2{
+    background-image: url('../img/fortnite-image2.png');
+    background-size: 100% 100%;
+    height: 500px;
+}
+
+.accordion{
+    padding: 22px 80px;
+}
+
+/* Footer style start */
+footer .fa{
+    font-size: 30px !important;
+    padding-right: 10px;
+}
+.copyright a{
+    padding-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.copyright a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .fornite-img-pad-fix {
+        padding: 0px !important;
+    }
+
+    .fornite-txt-pad-fix {
+        padding: 80px 30px;
+        text-align: center;
+    }
+    
+.accordion{
+    padding: 0 !important;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .fornite-img-pad-fix {
+        padding: 0px !important;
+    }
+
+    .fornite-txt-pad-fix {
+        text-align: center;
+        padding: 80px 30px;
+    }
+    
+    .accordion{
+        padding:0 !important;
+    }
+}
