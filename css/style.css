@@ -3,15 +3,15 @@
     src: url("../fonts/BurbankBigRegular-Black.otf") format("opentype");
 }
 h1{
-    font-family: 'BurbankBigRegular',sans-serif;
+    font-family: 'Lemonada', cursive;
 }
 h3{
     font-size: 1.375em;
     color: #00c6ff;
-    font-family: 'BurbankBigRegular',sans-serif;
+    font-family: 'Lemonada', cursive;
 }
 h3 span{
-    font-size: .99em;
+    font-size: 13px;
 }
 
 ul{
@@ -64,7 +64,7 @@ footer p{
 
 .fornite-txt-pad-fix {
     padding-top: 80px;
-    font-family: 'Lemonada', cursive;
+    
 
 }
 
@@ -79,6 +79,11 @@ footer p{
 
 
 /* section 2 design start */
+.section-2-heading{
+    font-size: 2.9em;
+    color: #002a44;
+}
+
 .section-2-1 p{
     font-weight: bold;
     font-family: OpenSans,sans-serif;
